@@ -1,0 +1,30 @@
+.search{
+    position: relative;
+    width: 30%;
+}
+
+.search-wrapper{
+    position: absolute;
+    top: 39px;
+    padding: 2px;
+    background: white;
+    z-index: 999;
+    width: 100%;
+    color: black;
+    border-radius:0 0 5px 5px;
+}
+.element-search{
+    padding-left: 4px;
+    display: flex;
+    align-items: center;
+    color: black;
+    overflow: hidden;
+}
+.element-search:hover{
+    background: #9f9f9f;
+    cursor: pointer;
+}
+
+.hidden-element{
+    display: none;
+}
